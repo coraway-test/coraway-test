@@ -47,7 +47,7 @@ export const CONTEXT = {
 	},
 	FIND_MANAGER_TODAY: {
 		title: 'Find a property manager today',
-		describe: 'It literally takes 30 seconds',
+		describe: 'It takes 30 seconds',
 		button: 'Search',
 		placeholder: 'Enter your address or zip code',
 	},
