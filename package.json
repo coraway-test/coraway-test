@@ -36,7 +36,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "init-db": "ts-node -P ./init-db.tsconfig.json ./init-db.ts"
+    "init-db": "ts-node -P ./init-db.tsconfig.json ./init-db.ts",
+    "homepage" : "http://myname.github.io/myapp"
   },
   "eslintConfig": {
     "extends": "react-app"
