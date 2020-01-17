@@ -1,96 +1,88 @@
-import React, {useEffect} from 'react';
-import firebase from 'firebase';
-import {useDispatch, useSelector} from 'react-redux';
-import {StyledFirebaseAuth} from 'react-firebaseui';
+import React, { useEffect } from "react";
+import firebase from "firebase/app";
+import { useDispatch, useSelector } from "react-redux";
+import { StyledFirebaseAuth } from "react-firebaseui";
 
-import uiConfig from '../../../firebase/uiFbConfig';
+import uiConfig from "../../../firebase/uiFbConfig";
 
-import {overlayActions} from '../../../redux/overlay/actions';
-import {OVERLAY_STYLE_CLASSES} from '../../../constants/overlay';
-import AuthForm from '../Form/Form';
-import {CONTEXT} from '../../../constants/context';
-import {AuthWrapper} from '../AuthWrapper.style';
-import AuthNavigation from '../Navigation/AuthNavigation';
-import Link from '../../../lib/Link';
-import {UI_ROUTES} from '../../../constants/routes';
-import Button from '../../../lib/Button/Button';
-import Tabs from '../Tabs/Tabs';
-import {selectIsOpenGuestModal} from '../../../redux/guestModal/selectors';
-import GuestModal from '../GuestModal/GuestModal';
-import {guestModalActions} from '../../../redux/guestModal/actions';
-import {signUpWithEmailAndPassword} from '../../../redux/auth/actions';
+import { overlayActions } from "../../../redux/overlay/actions";
+import { OVERLAY_STYLE_CLASSES } from "../../../constants/overlay";
+import AuthForm from "../Form/Form";
+import { CONTEXT } from "../../../constants/context";
+import { AuthWrapper } from "../AuthWrapper.style";
+import AuthNavigation from "../Navigation/AuthNavigation";
+import Link from "../../../lib/Link";
+import { UI_ROUTES } from "../../../constants/routes";
+import Button from "../../../lib/Button/Button";
+import Tabs from "../Tabs/Tabs";
+import { selectIsOpenGuestModal } from "../../../redux/guestModal/selectors";
+import GuestModal from "../GuestModal/GuestModal";
+import { guestModalActions } from "../../../redux/guestModal/actions";
+import { signUpWithEmailAndPassword } from "../../../redux/auth/actions";
 
 const SignUp = () => {
-	const dispatch = useDispatch();
-	const {SIGN_UP} = CONTEXT;
-	const {isOpen} = useSelector(selectIsOpenGuestModal);
+  const dispatch = useDispatch();
+  const { SIGN_UP } = CONTEXT;
+  const { isOpen } = useSelector(selectIsOpenGuestModal);
 
-	const handleSignUp = (values, actions) => {
-		const credentials = {
-			...values
-		};
-		dispatch(signUpWithEmailAndPassword(credentials));
-	};
+  const handleSignUp = (values, actions) => {
+    const credentials = {
+      ...values
+    };
+    dispatch(signUpWithEmailAndPassword(credentials));
+  };
 
-	useEffect(() => {
-		dispatch(overlayActions.show(OVERLAY_STYLE_CLASSES.AUTH));
+  useEffect(() => {
+    dispatch(overlayActions.show(OVERLAY_STYLE_CLASSES.AUTH));
 
-		return () => {
-			dispatch(overlayActions.hide());
-		}
-	}, [dispatch]);
+    return () => {
+      dispatch(overlayActions.hide());
+    };
+  }, [dispatch]);
 
-	const onOpenGuestModal = () => {
-		dispatch(guestModalActions.show());
-	};
+  const onOpenGuestModal = () => {
+    dispatch(guestModalActions.show());
+  };
 
-	return (
-		<AuthNavigation>
+  return (
+    <AuthNavigation>
+      {isOpen ? <GuestModal /> : <Tabs className="tabs mobile" />}
 
-			{
-				isOpen ? <GuestModal/> : 	<Tabs className="tabs mobile" />
+      <div className="body">
+        <h1>{SIGN_UP.title}</h1>
 
-			}
+        <AuthWrapper>
+          <div className="link-mobile-wrapper">
+            <Link to={UI_ROUTES.login} className="link sign-up">
+              {SIGN_UP.footer.link}
+            </Link>
+          </div>
 
-			<div className="body">
+          <Button className="btn browse-as-guest" onClick={onOpenGuestModal}>
+            <span>Browse as Guest</span>
+          </Button>
 
-				<h1>{SIGN_UP.title}</h1>
+          <StyledFirebaseAuth
+            uiConfig={uiConfig}
+            firebaseAuth={firebase.auth()}
+          />
 
-				<AuthWrapper>
-					<div className="link-mobile-wrapper">
-						<Link to={UI_ROUTES.login} className="link sign-up">{SIGN_UP.footer.link}</Link>
-					</div>
+          <div className="circleWrapper">
+            <div className="circle">
+              <div>OR</div>
+            </div>
+          </div>
 
-					<Button className="btn browse-as-guest" onClick={onOpenGuestModal}>
-						<span>Browse as Guest</span>
-					</Button>
-
-					<StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()}/>
-
-					<div className="circleWrapper">
-						<div className="circle">
-							<div>OR</div>
-						</div>
-					</div>
-
-					<div className="auth-wrapper">
-						<AuthForm
-							onSubmit={handleSignUp}
-							context={SIGN_UP}
-							isSignUp={true}
-						>
-							<Tabs className="tabs desktop" />
-						</AuthForm>
-					</div>
-
-				</AuthWrapper>
-
-			</div>
-
-
-		</AuthNavigation>
-	);
+          <div className="auth-wrapper">
+            <AuthForm onSubmit={handleSignUp} context={SIGN_UP} isSignUp={true}>
+              <Tabs className="tabs desktop" />
+            </AuthForm>
+          </div>
+        </AuthWrapper>
+      </div>
+    </AuthNavigation>
+  );
 };
 
 export default SignUp;
-export {SignUp};
+export { SignUp };
