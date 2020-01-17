@@ -1,18 +1,18 @@
-const BASE_URL = '/static/img/';
+const BASE_URL = "/coraway/static/img/";
 const BASE_ICONS_URL = `${BASE_URL}icons/`;
 
 export const LANDLORD = {
   CHAT: `${BASE_ICONS_URL}landlord/chat.svg`,
   ELLIPSE: `${BASE_ICONS_URL}landlord/ellipse.svg`,
   MANAGERS: `${BASE_ICONS_URL}landlord/managers.svg`,
-  SEARCH: `${BASE_ICONS_URL}landlord/search.svg`,
+  SEARCH: `${BASE_ICONS_URL}landlord/search.svg`
 };
 
 export const PROPERTY_MANAGER = {
   LIGHT: `${BASE_ICONS_URL}property_manager/light.svg`,
   ELLIPSE: `${BASE_ICONS_URL}property_manager/ellipse.svg`,
   RATING: `${BASE_ICONS_URL}property_manager/rating.svg`,
-  REFERRAL: `${BASE_ICONS_URL}property_manager/referral.svg`,
+  REFERRAL: `${BASE_ICONS_URL}property_manager/referral.svg`
 };
 
 export const IMAGES = {
@@ -20,12 +20,12 @@ export const IMAGES = {
   RESULT_BACKGROUND: `${BASE_URL}result_background.png`,
   ITEM_IMG: `${BASE_URL}item/test.png`,
   ITEM_IMG_2: `${BASE_URL}item/test2.png`,
-  ITEM_IMG_3: `${BASE_URL}item/test3.png`,
+  ITEM_IMG_3: `${BASE_URL}item/test3.png`
 };
 
 export const HEADER = {
   FULL_LOGO_GREEN: `${BASE_ICONS_URL}header/onetru-full-logo-green.svg`,
-  FULL_LOGO_WHITE: `${BASE_ICONS_URL}header/onetru-full-logo-white.svg`,
+  FULL_LOGO_WHITE: `${BASE_ICONS_URL}header/onetru-full-logo-white.svg`
 };
 
 export const RESULT_PAGE = {
@@ -33,13 +33,12 @@ export const RESULT_PAGE = {
   HEART: `${BASE_ICONS_URL}result_page/item/heart.svg`,
   STAR: `${BASE_ICONS_URL}result_page/item/star.svg`,
   OK: `${BASE_ICONS_URL}result_page/compare/error.svg`,
-  ERROR: `${BASE_ICONS_URL}result_page/compare/ok.svg`,
+  ERROR: `${BASE_ICONS_URL}result_page/compare/ok.svg`
 };
 
 export const AUTH = {
   GOOGLE: `${BASE_ICONS_URL}auth/g+.svg`,
-  FACEBOOK: `${BASE_ICONS_URL}auth/f.svg`,
-
+  FACEBOOK: `${BASE_ICONS_URL}auth/f.svg`
 };
 
 export const DETAILS = {
@@ -50,7 +49,7 @@ export const DETAILS = {
   HANDYMAN_TOOLS: `${BASE_ICONS_URL}details/handymanTools.svg`,
   VALET: `${BASE_ICONS_URL}details/valet.svg`,
   HEART: `${BASE_ICONS_URL}details/heart.svg`,
-  EXPORT: `${BASE_ICONS_URL}details/export.svg`,
+  EXPORT: `${BASE_ICONS_URL}details/export.svg`
 };
 
 export const ICONS = {
@@ -59,5 +58,5 @@ export const ICONS = {
   PROPERTY_MANAGER,
   RESULT_PAGE,
   AUTH,
-  DETAILS,
+  DETAILS
 };
