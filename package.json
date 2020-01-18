@@ -2,7 +2,7 @@
   "name": "one-true",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://coraway-test.github.io/coraway/",
+  "homepage": "https://thecoraway.com",
   "dependencies": {
     "@firebase/app": "^0.5.0",
     "@firebase/firestore": "^1.9.1",
