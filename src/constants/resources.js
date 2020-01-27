@@ -1,4 +1,4 @@
-const BASE_URL = "/coraway-test/static/img/";
+const BASE_URL = "/static/img/";
 const BASE_ICONS_URL = `${BASE_URL}icons/`;
 
 export const LANDLORD = {
