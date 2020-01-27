@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "714e868fafd96525e96da9143f509143",
+    "revision": "5cc8066dd958f745d945ade3bc0d58dd",
     "url": "/coraway-test/index.html"
   },
   {
