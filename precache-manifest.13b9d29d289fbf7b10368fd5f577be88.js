@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cc8066dd958f745d945ade3bc0d58dd",
+    "revision": "da325fd17267d804ca76f97317d13ef6",
     "url": "/coraway-test/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coraway-test/static/css/4.aef8ad04.chunk.css"
   },
   {
-    "revision": "e4202187e5f1b689b3fc",
+    "revision": "f26c3d083040c95181b7",
     "url": "/coraway-test/static/css/main.182c2d30.chunk.css"
   },
   {
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coraway-test/static/js/9.56baac1d.chunk.js"
   },
   {
-    "revision": "e4202187e5f1b689b3fc",
-    "url": "/coraway-test/static/js/main.53083f53.chunk.js"
+    "revision": "f26c3d083040c95181b7",
+    "url": "/coraway-test/static/js/main.87d4a86a.chunk.js"
   },
   {
     "revision": "215754b4666f0fad6ad1",
