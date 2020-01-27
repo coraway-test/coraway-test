@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b57d44a3c8d8c4a530e4d44f8a884ee1",
+    "revision": "144c06e31511fd6ba585875d50c617cb",
     "url": "/coraway/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coraway/static/css/4.aef8ad04.chunk.css"
   },
   {
-    "revision": "9b829a0ff328deb69f99",
+    "revision": "fc1bc4a433e9d758e297",
     "url": "/coraway/static/css/main.182c2d30.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coraway/static/js/1.eb946f49.chunk.js.LICENSE"
   },
   {
-    "revision": "35f557360e3a692962c2",
-    "url": "/coraway/static/js/10.237d9191.chunk.js"
+    "revision": "ea9e70e34cd8d9c25ddf",
+    "url": "/coraway/static/js/10.3a1520f0.chunk.js"
   },
   {
     "revision": "2fceb50bc1c42ab0d754",
@@ -44,31 +44,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coraway/static/js/4.1bbff82f.chunk.js.LICENSE"
   },
   {
-    "revision": "e5cf35393cc228a31b8b",
-    "url": "/coraway/static/js/5.c0501332.chunk.js"
+    "revision": "b0c85c6dccda214eba62",
+    "url": "/coraway/static/js/5.f9299be1.chunk.js"
   },
   {
-    "revision": "730d6244934ad40c24c3",
-    "url": "/coraway/static/js/6.e2183d9c.chunk.js"
+    "revision": "239553a5f8347bccc8c5",
+    "url": "/coraway/static/js/6.1701c801.chunk.js"
   },
   {
-    "revision": "f928fb9955ab8b862fa8",
-    "url": "/coraway/static/js/7.7aa36271.chunk.js"
+    "revision": "9292ed80187b90f4b066",
+    "url": "/coraway/static/js/7.3e92ba87.chunk.js"
   },
   {
-    "revision": "935b162b31ed90f559d2",
-    "url": "/coraway/static/js/8.1bdd0bfb.chunk.js"
+    "revision": "d81ebff6e38b5d555f12",
+    "url": "/coraway/static/js/8.c2e7bbb5.chunk.js"
   },
   {
     "revision": "4bd5260d9afadfb5f643",
     "url": "/coraway/static/js/9.56baac1d.chunk.js"
   },
   {
-    "revision": "9b829a0ff328deb69f99",
-    "url": "/coraway/static/js/main.84b77414.chunk.js"
+    "revision": "fc1bc4a433e9d758e297",
+    "url": "/coraway/static/js/main.9bce9b5d.chunk.js"
   },
   {
-    "revision": "bb45fea365b1ef102a90",
-    "url": "/coraway/static/js/runtime-main.59afbb89.js"
+    "revision": "4144301b67be7a2795d1",
+    "url": "/coraway/static/js/runtime-main.6951cf36.js"
   }
 ]);
