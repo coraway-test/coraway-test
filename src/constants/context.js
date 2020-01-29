@@ -55,7 +55,7 @@ export const CONTEXT = {
   },
   QUESTIONS: {
     title: "Any Questions?",
-    email: "info@coraway@.com",
+    email: "info@coraway.com",
     describe: "Feel free to get in touch anytime at: ",
     secondDescribe:
       "Enter your email below and we will contact you within 24 hours",

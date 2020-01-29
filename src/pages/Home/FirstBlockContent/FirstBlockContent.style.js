@@ -72,8 +72,8 @@ export const FirstBlockContentStyle = styled.div`
        
        .info-wrapper {
 	       .big-describe {
-	          font-size: 44px;
-            line-height: 50px;
+	          font-size: 36px;
+            line-height: 40px;
             padding-bottom: 10px;
 	       }
 	       

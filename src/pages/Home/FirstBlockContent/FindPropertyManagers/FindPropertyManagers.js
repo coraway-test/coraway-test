@@ -37,7 +37,7 @@ const FindPropertyManagers = ({ placeholder, button, sectionType }) => {
             >
               <div
                 id="mc_embed_signup_scroll"
-                style={{ width: "80vw", height: "50vh", paddingTop: 20 }}
+                style={{ width: "80vw", paddingTop: 20 }}
               >
                 <div id="mce-responses" className="clear">
                   <div

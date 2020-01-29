@@ -120,7 +120,7 @@ export const WrapperStyle = styled.div`
     .right {
       .btn.header-button {
         width: 146px;
-        font-size: 12px;
+        font-size: 14px;
         margin-right: 15px;
       }
 
