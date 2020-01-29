@@ -9,6 +9,7 @@ const Page404 = lazy(() => import("../pages/Page404"));
 const Login = lazy(() => import("../pages/Auth/Login"));
 const SignUp = lazy(() => import("../pages/Auth/SignUp"));
 const DetailPage = lazy(() => import("../pages/DetailPage"));
+const MailChimpForm = lazy(() => import("../pages/Auth/MailChimpForm"));
 
 const RestrictedRoutes = () => {
   return (
@@ -38,6 +39,11 @@ const RestrictedRoutes = () => {
           exact
           path={UI_ROUTES.signUp}
           render={props => <SignUp {...props} />}
+        />
+        <Route
+          exact
+          path={UI_ROUTES.mailChimp}
+          render={props => <MailChimpForm {...props} />}
         />
         <Route path="*" render={props => <Home {...props} />} />
       </Switch>

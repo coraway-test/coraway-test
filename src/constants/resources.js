@@ -25,7 +25,7 @@ export const IMAGES = {
 
 export const HEADER = {
   FULL_LOGO_GREEN: `${BASE_ICONS_URL}header/onetru-full-logo-green.svg`,
-  FULL_LOGO_WHITE: `${BASE_ICONS_URL}header/onetru-full-logo-white.svg`
+  FULL_LOGO_WHITE: `${BASE_ICONS_URL}header/coraway.svg`
 };
 
 export const RESULT_PAGE = {

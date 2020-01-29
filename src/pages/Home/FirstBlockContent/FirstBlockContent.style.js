@@ -1,7 +1,7 @@
-import styled from 'styled-components';
-import {THEME} from '../../../constants/theme';
+import styled from "styled-components";
+import { THEME } from "../../../constants/theme";
 
-import {device} from '../../../constants/devise';
+import { device } from "../../../constants/devise";
 
 const { text, bg, colors } = THEME;
 
@@ -20,16 +20,18 @@ export const FirstBlockContentStyle = styled.div`
     .info-wrapper {
 	    padding-bottom: 40px;
 	    width: 100%;
-	    
+	    margin-top: 50px;
 	    .big-describe {
-	      font-size: 96px;
+	      font-size: 76px;
 	      line-height: 112px;
 	    }
 	    
 	    .small-describe {
 	      font-size: 38px;
 	      line-height: 45px;
-	      padding-bottom: 40px;
+		  padding-bottom: 40px;
+		  padding-top: 20px;
+		  font-weight: 100;
 	    }
 	    
 	    .big-describe, .small-describe {
@@ -42,8 +44,8 @@ export const FirstBlockContentStyle = styled.div`
      		
      		.info-wrapper {
 	        .big-describe {
-	          font-size: 64px;
-		        line-height: 80px;  
+	          font-size:84px;
+		        line-height: 90px;  
 	        }
      		}
      		
@@ -70,8 +72,8 @@ export const FirstBlockContentStyle = styled.div`
        
        .info-wrapper {
 	       .big-describe {
-	          font-size: 24px;
-            line-height: 38px;
+	          font-size: 44px;
+            line-height: 50px;
             padding-bottom: 10px;
 	       }
 	       
