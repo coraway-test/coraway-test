@@ -1,0 +1,2 @@
+(this["webpackJsonpone-true"]=this["webpackJsonpone-true"]||[]).push([[10],{523:function(e,n,t){"use strict";t.r(n);var a=t(0),r=t.n(a),u=t(141),l=function(e){e.name;return r.a.createElement(u.a,null,r.a.createElement("div",null,r.a.createElement("h2",null,"Page not found."),r.a.createElement("h4",null,"Please, ensure you have enter right address")))};l.defaultProps={name:""};t.d(n,"Page404",(function(){return l}));n.default=l}}]);
+//# sourceMappingURL=10.01781a1b.chunk.js.map
