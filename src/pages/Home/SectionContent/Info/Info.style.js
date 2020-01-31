@@ -1,8 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import {THEME} from '../../../../constants/theme';
-import {ICONS} from '../../../../constants/resources';
-import {device} from '../../../../constants/devise';
+import { THEME } from "../../../../constants/theme";
+import { ICONS } from "../../../../constants/resources";
+import { device } from "../../../../constants/devise";
 
 const { colors } = THEME;
 
@@ -14,7 +14,8 @@ export const InfoWrapper = styled.div`
   text-align: center;
     
   .icon-wrapper {
-    background: url("${props => ICONS[props.typeIcons]["ELLIPSE"]}") no-repeat center;
+    background: url("${props =>
+      ICONS[props.typeIcons]["ELLIPSE"]}") no-repeat center;
     height: 277px;
     display: flex;
     width: 277px;
@@ -22,7 +23,8 @@ export const InfoWrapper = styled.div`
     margin: 0 auto;
     
     .icon {
-      background: url("${props => ICONS[props.typeIcons][props.type]}") no-repeat center;
+      background: url("${props =>
+        ICONS[props.typeIcons][props.type]}") no-repeat center;
       height: 133px;
       width: 133px;
       margin: 0 auto;
@@ -66,7 +68,7 @@ export const InfoWrapper = styled.div`
   	}
   	
   	.short-title, .describe {
-  		font-size: 24px;
+  		font-size: 20px;
       line-height: 30px;
   	}
   	

@@ -5,21 +5,23 @@ export const CONTEXT = {
       {
         typeIcons: "LANDLORD",
         type: "SEARCH",
-        title: "Search property managers",
+        title: "Find property managers",
         context:
-          "Within seconds using the address or zip code of your property."
+          "Answer a few questions and we'll help you find the best managers in your area."
       },
       {
         typeIcons: "LANDLORD",
         type: "MANAGERS",
-        title: "Compare property managers",
-        context: "in your local area based on their fees, services, and more!"
+        title: "Compare proposals",
+        context:
+          "Within 24 hours receive personalized recommendations based on your needs."
       },
       {
         typeIcons: "LANDLORD",
         type: "CHAT",
         title: "Chat with property managers",
-        context: "to see if they are a good fit for your needs."
+        context:
+          "Choose your favorites to interview and discuss your needs. There is no obligation."
       }
     ]
   },
@@ -49,7 +51,7 @@ export const CONTEXT = {
   },
   FIND_MANAGER_TODAY: {
     title: "Find a local property manager today",
-    describe: "It literally takes 30 seconds",
+    describe: "It literally takes 3 minutes.",
     button: "Contact Us",
     placeholder: "Enter your email address"
   },
@@ -65,7 +67,7 @@ export const CONTEXT = {
   FIRST_SECTION: {
     first_part_title: "Find and compare local",
     second_part_title: "Property Managers",
-    description: "Find and explore top rated property managers today.",
+    description: "We analyze thousands and match you with the best.",
     placeholder: "Enter your email address",
     button: "Get Started",
     trendingLocation: {
@@ -103,7 +105,7 @@ export const CONTEXT = {
       //   href: "/blog"
       // }
     ],
-    licence: "2019 Coraway. All Rights Reserved"
+    licence: "2020 Coraway. All Rights Reserved"
   },
   RESULT: {
     title: "property managers near",
