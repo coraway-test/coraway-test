@@ -33,19 +33,25 @@ export const CONTEXT = {
         type: "LIGHT",
         title: "Work smarter, not harder",
         context:
-          "Coraway finds landlords for you by advertising your services on a larger scale."
+          "We offer competitive advertising for property managers. Only pay for successful leads."
+        // "Grow your business without upfront costs."
       },
       {
         typeIcons: "PROPERTY_MANAGER",
         type: "REFERRAL",
-        title: "Earn referral fees",
-        context: "Get money for referring other property managers"
+        title: "Submit client proposals",
+        context:
+          "Grow your business and submit unlimited proposals to clients without upfront costs."
+        // Grow your business and submit unlimited proposals to clients without upfront costs. Our algorithm matches you with pre-vetted, serious clients"
+        // "Get money for referring other property managers.    highest quality clients of any online referral source."
       },
       {
         typeIcons: "PROPERTY_MANAGER",
         type: "RATING",
         title: "Protect your reputation ",
-        context: "Avoid negative reviews from bad clients."
+        context:
+          "Increase brand awareness in your local market without spending thousands up front on marketing."
+        // "Avoid negative reviews from bad clients. Get access to curated educational material."
       }
     ]
   },
@@ -59,8 +65,7 @@ export const CONTEXT = {
     title: "Any Questions?",
     email: "info@coraway.com",
     describe: "Feel free to get in touch anytime at: ",
-    secondDescribe:
-      "Enter your email below and we will contact you within 24 hours",
+    secondDescribe: "Get started today and we will contact you within 24 hours",
     button: "Contact Us",
     placeholder: "Enter your email address"
   },

@@ -15,7 +15,8 @@ export const FirstBlockContentStyle = styled.div`
     align-items: center;
     justify-content: center;
     background: ${colors.rootRectangle};
-    padding: 128px 0 0 87px;
+	padding: 128px 0 0 87px;
+	height: 100vh;
     
     .info-wrapper {
 	    padding-bottom: 40px;
@@ -27,7 +28,7 @@ export const FirstBlockContentStyle = styled.div`
 	    }
 	    
 	    .small-describe {
-	      font-size: 38px;
+	      font-size: 34px;
 	      line-height: 45px;
 		  padding-bottom: 40px;
 		  padding-top: 20px;
@@ -44,7 +45,7 @@ export const FirstBlockContentStyle = styled.div`
      		
      		.info-wrapper {
 	        .big-describe {
-	          font-size:84px;
+	          font-size:72px;
 		        line-height: 90px;  
 	        }
      		}
