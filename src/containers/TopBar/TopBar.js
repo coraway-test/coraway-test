@@ -1,10 +1,10 @@
 import React, { useRef, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
-
+import styled from "styled-components";
 import { WrapperStyle } from "./TopBar.style";
 import Link from "../../lib/Link";
 import Button from "../../lib/Button";
-
+import { THEME } from "../../constants/theme";
 import { UI_ROUTES } from "../../constants/routes";
 import { useVerticalParallax } from "../../utils/hooks/use-vertical-parallax";
 import { selectIsRootPage } from "../../redux/router/selectors";
@@ -25,6 +25,31 @@ const TopBar = ({ styleClass, button }) => {
     dispatch(logout());
   }, [dispatch]);
 
+  const { bg, text, colors } = THEME;
+
+  const LibButton = styled.button`
+    background-color: ${bg.button};
+    color: ${text.invert};
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+
+    &:disabled {
+      cursor: not-allowed;
+    }
+
+    &.FIND_MANAGER_TODAY {
+      background: ${colors.grayLight};
+      font-weight: 500;
+      color: ${colors.success};
+    }
+
+    &.header-button {
+      width: 196.03px;
+      border: #399343 solid 0.5px;
+    }
+  `;
   return (
     <WrapperStyle ref={wrapperRef} className={styleClass}>
       <div className="left">
@@ -39,11 +64,15 @@ const TopBar = ({ styleClass, button }) => {
         {isRootPage &&
           (!loggedIn ? (
             <>
-              <Link to={UI_ROUTES.mailChimp} className="link sign-up">
-                <Button className="btn header-button" type="submit">
-                  {button} Get Started
-                </Button>
-              </Link>
+              <LibButton className="btn header-button">
+                <a
+                  href="https://coraway.typeform.com/to/Ttjs8g"
+                  className="btn header-button"
+                  type="submit"
+                >
+                  Get Started
+                </a>
+              </LibButton>
               {/* <Link to={UI_ROUTES.signUp} className="link">
                 Sign up
               </Link>

@@ -11,7 +11,7 @@ export const FindSectionStyle = styled.div`
   &.FIND_MANAGER_TODAY {
     padding: 90px 130px;
     color: ${colors.white};
-    background: ${colors.success};
+    background: #0d5701;
 
     h1 {
       color: ${colors.white};

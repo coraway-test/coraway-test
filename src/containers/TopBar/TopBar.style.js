@@ -47,7 +47,6 @@ export const WrapperStyle = styled.div`
     .btn {
       margin-right: 25px;
       border: none;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       padding: 9px 23px;
 
       &.link {
