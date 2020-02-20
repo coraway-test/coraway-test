@@ -48,6 +48,7 @@ const TopBar = ({ styleClass, button }) => {
     &.header-button {
       width: 196.03px;
       border: #399343 solid 0.5px;
+      -webkit-appearance: none;
     }
   `;
   return (
@@ -69,6 +70,7 @@ const TopBar = ({ styleClass, button }) => {
                   href="https://coraway.typeform.com/to/Ttjs8g"
                   className="btn header-button"
                   type="submit"
+                  style={{ WebkitAppearance: "none" }}
                 >
                   Get Started
                 </a>

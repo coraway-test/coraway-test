@@ -121,6 +121,7 @@ export const WrapperStyle = styled.div`
         width: 146px;
         font-size: 14px;
         margin-right: 15px;
+        -webkit-appearance: none;
       }
 
       a.link {

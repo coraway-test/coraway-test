@@ -38,6 +38,7 @@ const LibButton = styled.button`
     width: 266.03px;
     padding: 10px;
     border: #399343 solid 0.5px;
+    -webkit-appearance: none;
   }
 `;
 
@@ -55,7 +56,7 @@ const FindPropertyManagers = ({ placeholder, button, sectionType }) => {
         href="https://coraway.typeform.com/to/Ttjs8g"
         className="btn header-button"
         type="submit"
-        style={{ color: "#ffffff", fontSize: 20 }}
+        style={{ color: "#ffffff", fontSize: 20, WebkitAppearance: "none" }}
       >
         Get Started
       </a>
