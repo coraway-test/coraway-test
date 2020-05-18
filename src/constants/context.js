@@ -1,84 +1,87 @@
 export const CONTEXT = {
   LANDLORD: {
-    title: "Are you a home owner?",
+    title: "Are you an out of state landlord?",
     icons: [
       {
         typeIcons: "LANDLORD",
         type: "SEARCH",
-        title: "Find property managers",
+        title: "Outsource common tasks",
         context:
-          "Answer a few questions and we'll help you find the best managers in your area."
+          "Self management from a distance can be a challenge. Outsource tasks to vetted community members.",
       },
       {
         typeIcons: "LANDLORD",
         type: "MANAGERS",
-        title: "Compare proposals",
+        title: "Tenant screening services",
         context:
-          "Within 24 hours receive personalized recommendations based on your needs."
+          "Pay-as-you-go rental screening services or elect to pass cost of rental background checks onto renters",
       },
       {
         typeIcons: "LANDLORD",
         type: "CHAT",
-        title: "Chat with property managers",
+        title: "Find a property manager",
         context:
-          "Choose your favorites to interview and discuss your needs. There is no obligation."
-      }
-    ]
+          "Looking for a local property manager? We'll do the research and help you find the best in your area",
+      },
+    ],
   },
   PROPERTY_MANAGER: {
-    title: "Are you a property manager?",
+    title: "Are you a local professional that needs extra cash?",
     icons: [
       {
         typeIcons: "PROPERTY_MANAGER",
         type: "LIGHT",
         title: "Work smarter, not harder",
         context:
-          "We offer competitive advertising for property managers. Only pay for successful leads."
+          "Make extra cash assisting landlords with property management tasks like home showings, accounting, or maintenance work.",
         // "Grow your business without upfront costs."
       },
       {
         typeIcons: "PROPERTY_MANAGER",
         type: "REFERRAL",
-        title: "Submit client proposals",
+        title: "Flexible scheduling",
         context:
-          "Grow your business and submit unlimited proposals to clients without upfront costs."
+          "Coraway notifies you of potential jobs nearby and pick the tasks that best fit your schedule.",
         // Grow your business and submit unlimited proposals to clients without upfront costs. Our algorithm matches you with pre-vetted, serious clients"
         // "Get money for referring other property managers.    highest quality clients of any online referral source."
       },
       {
         typeIcons: "PROPERTY_MANAGER",
         type: "RATING",
-        title: "Protect your reputation ",
+        title: "Educational resources ",
         context:
-          "Increase brand awareness in your local market without spending thousands up front on marketing."
+          "Get access to property management professional development resources and training.",
+        // "Build your team of local, background-checked Taskers to help with — and for — life. Whatever you need, they’ve got it covered.",
+        //"Increase brand awareness in your local market without spending thousands up front on marketing.",
         // "Avoid negative reviews from bad clients. Get access to curated educational material."
-      }
-    ]
+      },
+    ],
   },
   FIND_MANAGER_TODAY: {
-    title: "Find a local property manager today",
-    describe: "It literally takes 3 minutes.",
+    title: "Want to start investing out of state?",
+    describe: "Take this quiz and see if it's right for you.",
     button: "Contact Us",
-    placeholder: "Enter your email address"
+    placeholder: "Enter your email address",
   },
   QUESTIONS: {
     title: "Any Questions?",
-    email: "info@coraway.com",
+    email: "info@thecoraway.com",
     describe: "Feel free to get in touch anytime at: ",
     secondDescribe: "Get started today and we will contact you within 24 hours",
     button: "Contact Us",
-    placeholder: "Enter your email address"
+    placeholder: "Enter your email address",
   },
   FIRST_SECTION: {
-    first_part_title: "Find and compare local",
-    second_part_title: "Property Managers",
-    description: "We analyze thousands and match you with the best.",
+    first_part_title: "Invest in real estate anywhere.",
+    second_part_title: "Find locally trusted property management help",
+    description:
+      "Build your team of local, background-checked neighbors close by to your property and outsource your common property management tasks instantly.",
     placeholder: "Enter your email address",
     button: "Get Started",
     trendingLocation: {
       name: "Trending locations",
-      locations: [{ name: "Seattle" }, { name: "Chicago" }, { name: "Austin" }]
-    }
+      locations: [{ name: "Seattle" }, { name: "Chicago" }, { name: "Austin" }],
+    },
   },
   //   FIRST_SECTION: {
   //     first_part_title: "Find and compare local",
@@ -110,11 +113,11 @@ export const CONTEXT = {
       //   href: "/blog"
       // }
     ],
-    licence: "2020 Coraway. All Rights Reserved"
+    licence: "2020 Coraway. All Rights Reserved",
   },
   RESULT: {
     title: "property managers near",
-    description: "Specializing in Single Family Homes"
+    description: "Specializing in Single Family Homes",
   },
   FILTER: {
     title: "Filter by:",
@@ -128,8 +131,8 @@ export const CONTEXT = {
           { name: "2", value: 2 },
           { name: "3", value: 3 },
           { name: "4", value: 4 },
-          { name: "5", value: 5 }
-        ]
+          { name: "5", value: 5 },
+        ],
       },
       {
         placeholder: "Management type",
@@ -140,8 +143,8 @@ export const CONTEXT = {
           { name: "RMP®", value: "RMP®" },
           { name: "PRO", value: "PRO" },
           { name: "CRMC®", value: "CRMC®" },
-          { name: "VRBO", value: "VRBO" }
-        ]
+          { name: "VRBO", value: "VRBO" },
+        ],
       },
       {
         placeholder: "Service type",
@@ -150,50 +153,50 @@ export const CONTEXT = {
           { name: "Service type", value: "Service type" },
           { name: "Service type 1", value: "Full service" },
           { name: "Service type 2", value: "One service" },
-          { name: "Service type 3", value: "Part service" }
-        ]
-      }
-    ]
+          { name: "Service type 3", value: "Part service" },
+        ],
+      },
+    ],
   },
   SIGN_IN: {
     title: "Sign in",
     button: "SIGN IN",
     form: {
       email: "Email",
-      password: "Password"
+      password: "Password",
     },
     mobile: {
       landlord: {
-        title: "Log in to view your saved property managers."
+        title: "Log in to view your saved property managers.",
       },
       property_manager: {
-        title: "Log in to connect with landlords seeking your services."
+        title: "Log in to connect with landlords seeking your services.",
       },
       footer: {
-        link: "No Account? Sign up today!"
-      }
-    }
+        link: "No Account? Sign up today!",
+      },
+    },
   },
   MAIL_CHIMP: {
     title: "Request a demo",
     button: "Request a demo",
     form: {
       email: "Email",
-      password: "Password"
+      password: "Password",
     },
     mobile: {
       landlord: {
         title:
-          "Request a demo and get access to hundreds of property managers today."
+          "Request a demo and get access to hundreds of property managers today.",
       },
       property_manager: {
         title:
-          "Request a demo and get access to hundreds of homeowners looking for property managers."
+          "Request a demo and get access to hundreds of homeowners looking for property managers.",
       },
       footer: {
-        link: "No Account? Sign up today!"
-      }
-    }
+        link: "No Account? Sign up today!",
+      },
+    },
   },
   SIGN_UP: {
     title: "Sign up",
@@ -201,39 +204,39 @@ export const CONTEXT = {
     form: {
       email: {
         property_manager: "Company email",
-        landlord: "Email"
+        landlord: "Email",
       },
       password: "Password",
       confirmPassword: "Confirm password",
       name: {
         property_manager: "Company name",
-        landlord: "Username"
-      }
+        landlord: "Username",
+      },
     },
     mobile: {
       landlord: {
-        title: "Create an account to save property managers in your area."
+        title: "Create an account to save property managers in your area.",
       },
       property_manager: {
         title:
-          "Create an account to connect with landlords needing your services in your area."
-      }
+          "Create an account to connect with landlords needing your services in your area.",
+      },
     },
     footer: {
-      link: "Have an account? Log in"
-    }
+      link: "Have an account? Log in",
+    },
   },
   AUTH_TABS: {
     data: [
       {
         key: "landlord",
-        value: "Personal"
+        value: "Personal",
       },
       {
         key: "property_manager",
-        value: "Company"
-      }
-    ]
+        value: "Company",
+      },
+    ],
   },
   GUEST_BROWSER: {
     title: "Don't Miss Out!",
@@ -241,7 +244,7 @@ export const CONTEXT = {
       "If you skip signing up, you can still use the app but won’t be able to save property managers or read all reviews.",
     buttons: {
       signUp: "Sign up",
-      startBrowsing: "Start Browsing"
-    }
-  }
+      startBrowsing: "Start Browsing",
+    },
+  },
 };

@@ -23,16 +23,17 @@ export const FirstBlockContentStyle = styled.div`
 	    width: 100%;
 	    margin-top: 50px;
 	    .big-describe {
-	      font-size: 76px;
-	      line-height: 112px;
+	      font-size: 46px;
+	      line-height: 60px;
 	    }
 	    
 	    .small-describe {
-	      font-size: 34px;
-	      line-height: 45px;
+	      font-size: 22px;
+	      line-height: 32px;
 		  padding-bottom: 40px;
 		  padding-top: 20px;
-		  font-weight: 100;
+		  font-weight: 300;
+		  width: 730px;
 	    }
 	    
 	    .big-describe, .small-describe {

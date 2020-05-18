@@ -14,7 +14,7 @@ export const InfoWrapper = styled.div`
   text-align: center;
     
   .icon-wrapper {
-    background: url("${props =>
+    background: url("${(props) =>
       ICONS[props.typeIcons]["ELLIPSE"]}") no-repeat center;
     height: 277px;
     display: flex;
@@ -23,7 +23,7 @@ export const InfoWrapper = styled.div`
     margin: 0 auto;
     
     .icon {
-      background: url("${props =>
+      background: url("${(props) =>
         ICONS[props.typeIcons][props.type]}") no-repeat center;
       height: 133px;
       width: 133px;
@@ -36,11 +36,13 @@ export const InfoWrapper = styled.div`
   }
   
   .short-title {
+    font-size: 30px
     font-weight: bold;
     padding-top: 15px;
   }
   
   .describe {
+    font-size: 24px
   	padding-top: 20px;
   }
   
@@ -69,10 +71,11 @@ export const InfoWrapper = styled.div`
   	
   	.short-title, .describe {
   		font-size: 20px;
-      line-height: 30px;
+      line-height: 26px;
   	}
   	
   	.describe {
+      font-size: 18px;
   		padding-top: 10px;
   	}
   }

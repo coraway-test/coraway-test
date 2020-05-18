@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import {THEME} from '../../../constants/theme';
-import {device} from '../../../constants/devise';
+import styled from "styled-components";
+import { THEME } from "../../../constants/theme";
+import { device } from "../../../constants/devise";
 
 const { text, bg, colors } = THEME;
 
@@ -17,7 +17,7 @@ export const FirstBlockContentStyle = styled.div`
     
     .big-describe {
         font-weight: bold;
-				font-size: 64px;
+				font-size: 46px;
 				line-height: 75px;
 				
 				.counter-of-result, .counter-all-managers {
