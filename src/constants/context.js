@@ -59,7 +59,7 @@ export const CONTEXT = {
   },
   FIND_MANAGER_TODAY: {
     title: "Want to start investing out of state?",
-    describe: "Take this quiz and see if it's right for you.",
+    describe: "Let's chat and see if it's right for you.",
     button: "Contact Us",
     placeholder: "Enter your email address",
   },
