@@ -7,21 +7,21 @@ export const CONTEXT = {
         type: "SEARCH",
         title: "Outsource common tasks",
         context:
-          "Self management from a distance can be a challenge. Outsource tasks to vetted community members.",
+          "Self management from a distance can be a challenge. Outsource tasks to a vetted pool of community members.",
       },
       {
         typeIcons: "LANDLORD",
         type: "MANAGERS",
         title: "Tenant screening services",
         context:
-          "Pay-as-you-go rental screening services or elect to pass cost of rental background checks onto renters",
+          "Pay-as-you-go rental screening services or elect to pass cost of rental background checks onto renters.",
       },
       {
         typeIcons: "LANDLORD",
         type: "CHAT",
         title: "Find a property manager",
         context:
-          "Looking for a local property manager? We'll do the research and help you find the best in your area",
+          "Looking for a local property manager? We'll do the research and help you find the best in your area.",
       },
     ],
   },
@@ -58,8 +58,8 @@ export const CONTEXT = {
     ],
   },
   FIND_MANAGER_TODAY: {
-    title: "Want to start investing out of state?",
-    describe: "Let's chat and see if it's right for you.",
+    title: "Want to manage your out of state property and save?",
+    describe: "Let's chat and discuss your goals.",
     button: "Contact Us",
     placeholder: "Enter your email address",
   },
@@ -72,7 +72,7 @@ export const CONTEXT = {
     placeholder: "Enter your email address",
   },
   FIRST_SECTION: {
-    first_part_title: "Invest in real estate anywhere.",
+    first_part_title: "Invest in real estate anywhere",
     second_part_title: "Find locally trusted property management help",
     description:
       "Build your team of local, background-checked neighbors close by to your property and outsource your common property management tasks instantly.",
